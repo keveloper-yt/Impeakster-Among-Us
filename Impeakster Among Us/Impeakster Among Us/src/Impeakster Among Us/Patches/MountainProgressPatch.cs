@@ -55,7 +55,8 @@ namespace Impeakster_Among_Us.Patches
                 {
                     for (int i = 0; i < 6; i++)
                     {
-                        __instance.progressPoints[i].title = GetText("Impostor");
+                        //__instance.progressPoints[i].title = GetText("Impostor");
+                        __instance.progressPoints[i].title = "Mod_Impeakster_Impostor";
                     }
                     //__instance.progressPoints[i].title = "Impostor";
                 }
